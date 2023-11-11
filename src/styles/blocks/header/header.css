@@ -1,0 +1,18 @@
+@import "components/menu.css";
+@import "components/contacts.css";
+@import "components/main-menu.css";
+@import "components/dropdown.css";
+
+.header__inner {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__right {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 25px;
+}

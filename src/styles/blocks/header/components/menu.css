@@ -1,0 +1,24 @@
+/* Menu */
+
+.menu__list {
+	display: flex;
+	justify-content: space-between;
+	gap: 42px;
+}
+
+/* Item */
+
+.menu__item {
+	@media (width < 1120px) {
+		&:nth-child(3),
+		&:nth-child(4) {
+			display: none;
+		}
+	}
+}
+
+/* Link */
+
+.menu__link_red {
+	color: var(--color-link-second);
+}

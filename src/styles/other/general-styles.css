@@ -1,0 +1,117 @@
+/* Container */
+.container {
+	max-width: var(--main-width);
+	padding: 0 var(--page-padding);
+	margin: 0 auto;
+}
+
+/* Hidden */
+
+.hidden {
+	display: none;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+/* Titles */
+
+h1,
+h2,
+h3,
+h4 {
+	text-transform: uppercase;
+}
+
+h1 {
+	font-weight: 800;
+}
+
+h2,
+h3,
+h4 {
+	font-weight: 500;
+}
+
+.subtitle {
+	font-family: Roboto, sans-serif;
+	font-size: var(--font-size);
+	color: var(--color-subtitle);
+}
+
+.title-2 {
+	font-family: Roboto, sans-serif;
+	font-size: 44px;
+	color: var(--color-t2);
+}
+
+/* Buttons */
+
+.button {
+	position: relative;
+	font-size: var(--font-size-small);
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: transparent;
+	padding: 11px 16px;
+	border: 1px solid
+		var(--color-border-button);
+	border-radius: 30px;
+
+	&:hover {
+		background-color: var(
+			--color-bg-button-hover
+		);
+	}
+}
+
+.button_red {
+	color: var(--color-invert);
+	background-color: var(
+		--color-bg-button-second
+	);
+	padding-left: 28px;
+	padding-right: 50px;
+	border: none;
+
+	&::after {
+		content: url("../images/icons/arrow.svg");
+		position: absolute;
+		width: var(--font-size-small);
+		height: var(--font-size-small);
+		right: 26px;
+	}
+
+	&:hover {
+		background-color: var(
+			--color-bg-button-second-hover
+		);
+	}
+}
+
+/* Link */
+
+.link:hover {
+	text-decoration: underline;
+}
+
+/* Line */
+
+.line {
+	background-color: var(
+		--color-bg-line
+	);
+	height: 40px;
+	width: 1px;
+}

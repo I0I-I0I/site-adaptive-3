@@ -1,0 +1,75 @@
+:root {
+	/* Page */
+	--page-width: 1120px;
+	--page-padding: 30px;
+	--main-width: calc(
+		var(--page-width) +
+			(var(--page-padding) * 2)
+	);
+
+	/* Font */
+	--font-main: sans-serif;
+
+	/* Font size */
+	--font-size: 1em;
+	--font-size-small: 0.875em;
+
+	/* Colors names */
+	--white: 255 255 255;
+	--doctor: 248 248 248;
+	--black: 0 0 0;
+	--eerie-black: 28 28 28;
+	--shadows: 107 107 107;
+	--red-pigment: 236 28 36;
+	--crimson: 221 26 33;
+	--black-out: 34 34 34;
+	--platinum: 227 227 227;
+
+	/* Colors */
+	--color: rgb(var(--eerie-black));
+	--color-invert: rgb(var(--white));
+	--color-second: rgb(var(--shadows));
+	--color-bg: rgb(var(--white));
+	--color-bg-invert: rgb(
+		var(--white)
+	);
+
+	/* Titles */
+	--color-subtitle: rgb(var(--black));
+	--color-t2: rgb(var(--eerie-black));
+
+	/* Line */
+	--color-bg-line: rgb(
+		var(--platinum)
+	);
+
+	/* Link */
+	--color-link: rgb(var(--black));
+	--color-link-second: rgb(
+		var(--red-pigment)
+	);
+
+	/* Button */
+	--color-border-button: rgb(
+		var(--shadows)
+	);
+	--color-bg-button-second: rgb(
+		var(--red-pigment)
+	);
+	--color-bg-button-hover: rgb(
+		var(--doctor)
+	);
+	--color-bg-button-second-hover: rgb(
+		var(--crimson)
+	);
+
+	/* Burger */
+	--color-bg-burger: rgb(
+		var(--black)
+	);
+
+	/* Footer */
+	--color-bg-footer: rgb(
+		var(--black-out)
+	);
+}

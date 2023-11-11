@@ -1,0 +1,24 @@
+/* Contacts */
+
+.contacts {
+	display: flex;
+	gap: 12px;
+}
+
+/* Link */
+
+.contacts__link {
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.contacts__link_call {
+	background-image: url("../images/icons/call.svg");
+}
+
+.contacts__link_location {
+	background-image: url("../images/icons/location.svg");
+}
